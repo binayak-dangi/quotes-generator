@@ -11,16 +11,19 @@
         <h1>Quotes Generator</h1>
         <div class="category">
             <label for="category">Select a category:</label>
-            <select id="category">
-                <option value="funny">Science</option>
-                <option value="inspirational">Inspiration</option>
+            <select id="categorySelect">
+                <option value="science">Science</option>
+                <option value="inspiration">Inspiration</option>
                 <option value="life">Life</option>
                 <option value="love">Love</option>
             </select>
         </div>
-        <div class="quote-display">lorem50
-            
-        </div>
+        <div id="quoteDisplay"></div>
+        <div id="quoteGenerate">
+            <button onclick="prevQuote()">Previous</button>
+            <button onclick="nextQuote()">Next</button>
+            <button onclick="randomQuote()">Random</button>
+          </div>
 
     </div>
 
