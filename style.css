@@ -100,7 +100,7 @@ img {
     }
     .container #quoteDisplay{
         width: 90%;
-        height: auto;
+        height: 190px;
     }
     .container #quoteGenerate{
         width: 90%;
