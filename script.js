@@ -85,3 +85,18 @@ let theme = "light";
             }
         }
   
+
+        // font size increase and decrease
+        let fontSize = 17;
+        const fontIncrease = () => {
+            if (fontSize < 28){
+                fontSize= fontSize + 1;
+                document.getElementById("quoteDisplay").style.fontSize = `${fontSize}px`;
+            }
+        }
+        const fontDecrease = () => {
+            if (fontSize > 11){
+                fontSize= fontSize - 1;
+                document.getElementById("quoteDisplay").style.fontSize = `${fontSize}px`;
+            }
+        }
