@@ -32,8 +32,9 @@ img {
    margin: 20px 0;  
 }
 .container .category label{
+    margin: 6px;
     font-size: 1.2rem;
-    color: #555;
+    color: black;
 }
 .container .category select{
     width: 20%;
@@ -48,22 +49,16 @@ img {
 }
 .container #quoteDisplay{
    width: 60%;
-   height: auto;
+   height: 120px;
    margin: 20px auto;
    padding: 20px;
    background-color: #fff;
    border-radius: 10px;
    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
    font-size: 17px;
+   text-align: justify;
 }
-.container .font{
-    display: flex;
-    justify-content: center;
-}
-.container .font button{
-    margin: 0px 12px;
-    padding: 10px;
-}
+
 .container #quoteGenerate {
     width: 60%;
     text-align: center;
@@ -75,13 +70,25 @@ img {
     margin: 6px auto;
     padding: 10px 20px;
     font-size: 1rem;
-    color: #ffffff;
-    background-color: #e9b109;
-    border: none;
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
+.container .font{
+    display: flex;
+    justify-content: center;
+}
+.container .font button{
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 0px 12px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 
 /* responsive */
 @media (max-width: 768px) {
@@ -93,6 +100,7 @@ img {
     }
     .container #quoteDisplay{
         width: 90%;
+        height: auto;
     }
     .container #quoteGenerate{
         width: 90%;

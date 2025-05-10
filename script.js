@@ -92,11 +92,13 @@ let theme = "light";
             if (fontSize < 28){
                 fontSize= fontSize + 1;
                 document.getElementById("quoteDisplay").style.fontSize = `${fontSize}px`;
+                document.getElementById("quoteDisplay").style.height='auto';
             }
         }
         const fontDecrease = () => {
             if (fontSize > 11){
                 fontSize= fontSize - 1;
                 document.getElementById("quoteDisplay").style.fontSize = `${fontSize}px`;
+                document.getElementById("quoteDisplay").style.height='auto';
             }
         }
