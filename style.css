@@ -3,9 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container h1{
     text-align: center;
     margin: 20px 0;
     font-size: 2rem;
     color: #333;
+}
+.container .category{
+   text-align: center;
+   margin: 20px 0;  
+}
+.container .category label{
+    font-size: 1.2rem;
+    color: #555;
+}
+.container .category select{
+    width: 20%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.container .quote-display{
+   width: 60%;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
