@@ -64,4 +64,24 @@ const quotesByCategory = {
     quoteDisplay.innerText = currentQuotes[currentQuoteIndex];
     
   }
+
+//   for theme
+let theme = "light";
+        let image = ["brightness.jpeg", "dark.jpeg"];
+        let index = 0;
+        const mode = () => {
+            if (theme == "light") {
+                theme = "dark"
+                document.getElementById("turnOn").style.backgroundColor = `black`;
+                document.getElementById("quoteDisplay").style.backgroundColor = `black`;
+                document.getElementById("turnOn").style.color = `white`;
+                document.getElementById("btn").src = image[1];
+            } else {
+                theme = "light"
+                document.getElementById("turnOn").style.backgroundColor = `white`;
+                document.getElementById("quoteDisplay").style.backgroundColor = `white`;
+                document.getElementById("turnOn").style.color = `black`;
+                document.getElementById("btn").src = image[0];
+            }
+        }
   
