@@ -36,13 +36,16 @@ img {
     color: #555;
 }
 .container .category select{
-    width: 15%;
+    width: 20%;
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
+.container .category select option{
+    font-size: 2rem;
+   
+}
 .container #quoteDisplay{
    width: 60%;
    height: auto;
@@ -64,12 +67,12 @@ img {
 .container #quoteGenerate {
     width: 60%;
     text-align: center;
-    margin: 20px auto;
+    margin: 12px auto;
     padding: 20px;
     border-radius: 10px;
 }
 .container #quoteGenerate button{
-    margin: 20px auto;
+    margin: 6px auto;
     padding: 10px 20px;
     font-size: 1rem;
     color: #ffffff;
@@ -77,4 +80,21 @@ img {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+
+/* responsive */
+@media (max-width: 768px) {
+    .container h1{
+        font-size: 1.5rem;
+    }
+    .container .category select{
+        width: 80%;
+    }
+    .container #quoteDisplay{
+        width: 90%;
+    }
+    .container #quoteGenerate{
+        width: 90%;
+    }
 }
