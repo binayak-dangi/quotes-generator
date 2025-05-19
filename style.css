@@ -32,9 +32,10 @@ img {
    margin: 20px 0;  
 }
 .container .category label{
-    margin: 6px;
+    display: block;
+    margin: 10px;
     font-size: 1.2rem;
-    color: black;
+
 }
 .container .category select{
     width: 20%;
