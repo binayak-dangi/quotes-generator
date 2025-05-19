@@ -33,7 +33,7 @@ img {
 }
 .container .category label{
     display: block;
-    margin: 10px;
+    margin-bottom: 10px;
     font-size: 1.2rem;
 
 }
